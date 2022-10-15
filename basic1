@@ -1,0 +1,1 @@
+print(f"a month is  {24 * 30 * 60} minutes")
