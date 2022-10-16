@@ -1,1 +1,14 @@
 print(f"a month is  {24 * 30 * 60} minutes")
+#################
+calculation_to_unit = 24
+unit = "hours"
+
+
+def days_to_unit(num_of_days, custom_message):
+    print(f"{num_of_days} days are {calculation_to_unit * num_of_days} {unit}")
+    print(custom_message)
+
+days_to_unit(60, "that's good" )
+days_to_unit(56, "chill")
+days_to_unit(20, "nice")
+##################
